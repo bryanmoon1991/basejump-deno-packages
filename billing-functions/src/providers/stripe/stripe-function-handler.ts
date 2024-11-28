@@ -91,7 +91,7 @@ export function stripeFunctionHandler({
                 mode: "subscription",
                 success_url: successUrl,
                 cancel_url: cancelUrl,
-                allow_promotion_codes: true,
+                // allow_promotion_codes: true,
                 metadata: {
                     basejump_account_id: accountId,
                 },
