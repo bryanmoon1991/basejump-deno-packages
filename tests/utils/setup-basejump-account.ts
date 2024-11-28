@@ -1,5 +1,5 @@
 import {expect} from "@playwright/test";
-import {createClient, SupabaseClient} from "@supabase/supabase-js";
+import {createClient, SupabaseClient} from "https://esm.sh/@supabase/supabase-js@2";
 
 export default async function setupBasejumpAccount(uniqueIdentifier: string): {
     supabaseClient: SupabaseClient,
