@@ -92,6 +92,7 @@ export function stripeFunctionHandler({
                 success_url: successUrl,
                 cancel_url: cancelUrl,
                 allow_promotion_codes: true,
+                automatic_tax: {enabled: true},
                 metadata: {
                     basejump_account_id: accountId,
                 },
